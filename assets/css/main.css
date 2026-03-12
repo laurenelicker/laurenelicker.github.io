@@ -1325,7 +1325,6 @@ button {
 		}
 
 	#header nav ul {
-		position: fixed; /* Set the navbar to fixed position */
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
