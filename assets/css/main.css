@@ -1654,4 +1654,5 @@ button {
 		display: flex;
 		gap: 20px; /* This adds a 20px gap between the images */
 		/* Older method: use justify-content: space-between or space-around */
+		justify-content: center; /* Centers horizontally */
 	}
