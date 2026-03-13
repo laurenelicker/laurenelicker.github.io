@@ -1559,7 +1559,7 @@ button {
 			height: 12rem;
 			cursor: pointer;
 			text-indent: 4rem;
-			*\overflow: scroll;\*
+			overflow: scroll;
 			white-space: nowrap;
 		}
 
