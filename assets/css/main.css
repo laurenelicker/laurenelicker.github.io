@@ -54,6 +54,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	scroll-behavior: smooth;
 }
 
 mark {
