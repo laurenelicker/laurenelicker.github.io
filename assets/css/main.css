@@ -1311,7 +1311,7 @@ button {
 			transition-delay: 0.25s;
 			padding: 3rem 2rem;
 			max-height: 40rem;
-			*\overflow: scroll;\*
+			overflow: scroll;
 		}
 
 			#header .content .inner > :last-child {
@@ -1559,7 +1559,7 @@ button {
 			height: 12rem;
 			cursor: pointer;
 			text-indent: 4rem;
-			overflow: scroll;
+			*\overflow: scroll;\*
 			white-space: nowrap;
 		}
 
