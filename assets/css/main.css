@@ -1092,7 +1092,7 @@ button {
 }
 
 /* This changes what the background of your site looks like */
-# {
+#bg {
 	-moz-transform: scale(1.0);
 	-webkit-transform: scale(1.0);
 	-ms-transform: scale(1.0);
