@@ -54,6 +54,7 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
+	
 }
 
 mark {
@@ -179,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 1rem 0;
-
+	
 	letter-spacing: 0.2rem;
 }
 
@@ -392,7 +393,7 @@ label {
 	letter-spacing: 0.2rem;
 	line-height: 1.5;
 	margin: 0 0 1rem 0;
-
+	
 }
 
 input[type="text"],
@@ -1092,7 +1093,7 @@ button {
 }
 
 /* This changes what the background of your site looks like */
-#bg {
+# {
 	-moz-transform: scale(1.0);
 	-webkit-transform: scale(1.0);
 	-ms-transform: scale(1.0);
@@ -1554,7 +1555,7 @@ button {
 			top: 0;
 			right: 0;
 			width: 4rem;
-			height: 4rem;
+			height: 12rem;
 			cursor: pointer;
 			text-indent: 4rem;
 			overflow: scroll;
