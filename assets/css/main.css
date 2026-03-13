@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 1rem 0;
-	
+	text-transform: uppercase;
 	letter-spacing: 0.2rem;
 }
 
@@ -392,7 +392,7 @@ label {
 	letter-spacing: 0.2rem;
 	line-height: 1.5;
 	margin: 0 0 1rem 0;
-	
+	text-transform: uppercase;
 }
 
 input[type="text"],
@@ -1145,7 +1145,6 @@ button {
 		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
 		/* We can change the background image here. */
-		/*background-image: url("../../images/bg.jpg");*/
 		background-image: url("../../images/bg.jpg");
 		background-position: center;
 		background-size: cover;
@@ -1310,7 +1309,7 @@ button {
 			transition-delay: 0.25s;
 			padding: 3rem 2rem;
 			max-height: 40rem;
-			overflow: scroll;
+			overflow: hidden;
 		}
 
 			#header .content .inner > :last-child {
@@ -1318,7 +1317,7 @@ button {
 			}
 
 		#header .content p {
-			
+			text-transform: uppercase;
 			letter-spacing: 0.2rem;
 			font-size: 0.8rem;
 			line-height: 2;
@@ -1351,7 +1350,7 @@ button {
 				height: 2.75rem;
 				line-height: 2.75rem;
 				padding: 0 1.25rem 0 1.45rem;
-				
+				text-transform: uppercase;
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				border-bottom: 0;
@@ -1378,7 +1377,6 @@ button {
 
 	#header nav.use-middle ul li.is-middle {
 		border-left: 0;
-		text-align: center;
 	}
 
 	body.is-article-visible #header {
@@ -1555,10 +1553,10 @@ button {
 			top: 0;
 			right: 0;
 			width: 4rem;
-			height: 12rem;
+			height: 4rem;
 			cursor: pointer;
 			text-indent: 4rem;
-			overflow: scroll;
+			overflow: hidden;
 			white-space: nowrap;
 		}
 
