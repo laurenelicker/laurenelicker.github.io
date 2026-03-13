@@ -88,7 +88,8 @@ input, select, textarea {
 
 html {
 	box-sizing: border-box;
-	overflow: hidden
+	overflow: hidden;
+	scroll-behavior: smooth;
 }
 
 *, *:before, *:after {
