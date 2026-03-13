@@ -54,7 +54,6 @@ table {
 
 body {
 	-webkit-text-size-adjust: none;
-	
 }
 
 mark {
@@ -82,6 +81,7 @@ input, select, textarea {
 
 	html, body {
 		min-width: 320px;
+		overflow: scroll;
 	}
 
 }
